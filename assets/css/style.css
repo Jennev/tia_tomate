@@ -89,6 +89,18 @@ body {
   align-items: center;
 }
 
+.footer {
+  background-color: var(--taupe-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.footer .img-footer {
+  height: 70px;
+}
+
 .hero {
   background-color: var(--jelly-bean);
   height: 500px;
@@ -134,11 +146,4 @@ body {
   padding-bottom: 20px;
 }
 
-/* 
-display: flex;
-justify-content: center;
-align-items: center;
-line-height : 25px;
-
- */
 /*vendors */
