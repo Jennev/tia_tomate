@@ -27,7 +27,7 @@ body {
   font-size: 50px;
 }
 
-.título-tomates {
+.título-tomates, .título-limache {
   margin-bottom: 20px;
   font-weight: 700;
   text-align: center;
@@ -51,6 +51,17 @@ body {
   justify-content: center;
   align-items: center;
   line-height: 25px;
+}
+
+.limache {
+  background-color: var(--snow);
+  color: var(--taupe-gray);
+  padding-bottom: 30px;
+}
+
+.limache img {
+  padding: 80px;
+  padding-bottom: 20px;
 }
 
 .tomates {

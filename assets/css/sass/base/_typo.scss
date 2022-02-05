@@ -10,11 +10,15 @@ body{
     font-size: 50px;    
 }
 
-.título-tomates {
+%títulos {
     margin-bottom: 20px;
     font-weight: 700;
     text-align: center;
 }
+.título-tomates, .título-limache {
+    @extend %títulos;
+}
+
 
 .p-tomates{
     padding-left: 260px;
