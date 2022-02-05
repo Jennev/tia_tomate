@@ -12,15 +12,27 @@
 }
 
 /* base */
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 60px;
+}
+
+p {
+  font-weight: 700;
+  font-size: 50px;
+}
+
 /* components */
 /* layout */
 .hero {
   background-color: var(--jelly-bean);
-  height: 400px;
-  color: var(--white);
+  height: 500px;
+  color: var(--snow);
   display: flex;
   justify-content: center;
   align-items: center;
+  line-height: 25px;
 }
 
 /*vendors */

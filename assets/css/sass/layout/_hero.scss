@@ -1,8 +1,9 @@
 .hero {
     background-color: var(--jelly-bean);
-    height: 400px;
-    color: var(--white);
+    height: 500px;
+    color: var(--snow);
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height : 25px;
 }
