@@ -19,7 +19,7 @@ body{
     font-weight: 700;
     text-align: center;
 }
-.título-tomates, .título-limache, .título-javiera, .título-roberto  {
+.título-tomates, .título-limache, .título-javiera, .título-roberto {
     @extend %títulos;
 }
 
@@ -52,4 +52,9 @@ body{
 }
 .p-javiera, .p-roberto{
     @extend %párrafos2;
+}
+
+.título-contacto {
+    font-weight: 700;
+    font-size: 40px;
 }

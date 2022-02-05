@@ -58,8 +58,22 @@ body {
   text-align: start;
 }
 
+.título-contacto {
+  font-weight: 700;
+  font-size: 40px;
+}
+
 /* components */
 /* layout */
+.contacto {
+  background-color: var(--jelly-bean);
+  height: 200px;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero {
   background-color: var(--jelly-bean);
   height: 500px;
