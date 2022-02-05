@@ -1,0 +1,9 @@
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 70px;
+    @extend %p;
+        font-weight: 700;
+
+    
+}
