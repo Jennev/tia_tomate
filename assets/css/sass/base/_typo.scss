@@ -19,13 +19,14 @@ body{
     @extend %títulos;
 }
 
-
-.p-tomates{
-    padding-left: 260px;
-    padding-right: 260px;
+%párrafos{
+    padding-left: 270px;
+    padding-right: 225px;
     font-size: 15px;
     font-weight: 200;
     text-align: start;
-   
-
 }
+.p-tomates, .p-limache {
+    @extend %párrafos;
+}
+

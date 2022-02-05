@@ -33,9 +33,9 @@ body {
   text-align: center;
 }
 
-.p-tomates {
-  padding-left: 260px;
-  padding-right: 260px;
+.p-tomates, .p-limache {
+  padding-left: 270px;
+  padding-right: 225px;
   font-size: 15px;
   font-weight: 200;
   text-align: start;
@@ -55,7 +55,7 @@ body {
 
 .limache {
   background-color: var(--snow);
-  color: var(--taupe-gray);
+  color: var(--granite-gray);
   padding-bottom: 30px;
 }
 
