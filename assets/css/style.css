@@ -1,6 +1,6 @@
 /* abstracts */
 :root {
-  --color-white: #fff;
+  --white: #fff;
   --snow: #fafafa;
   --quick-silver: #a0a0a0;
   --jelly-bean: #e56353;
@@ -14,4 +14,13 @@
 /* base */
 /* components */
 /* layout */
+.hero {
+  background-color: var(--jelly-bean);
+  height: 400px;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*vendors */
