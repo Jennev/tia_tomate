@@ -8,9 +8,17 @@
 @import 'components/buttons';
 
 /* layout */
+@import 'layout/contacto';
 @import 'layout/footer';
 @import 'layout/header';
-@import 'layout/main';
+@import 'layout/hero';
+@import 'layout/limache';
+@import 'layout/nosotros';
+@import 'layout/tomates';
+
+
+
+
 
 /*vendors */
 @import 'vendors/_bootstrap';
