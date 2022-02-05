@@ -30,7 +30,7 @@ body{
     font-weight: 200;
     text-align: start;
 }
-.p-tomates, .p-limache, .p-javiera, .p-roberto{
+.p-tomates, .p-limache{
     @extend %párrafos;
 }
 
@@ -41,4 +41,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+%párrafos2{
+    padding-left: 240px;
+    padding-right: 165px;
+    font-size: 15px;
+    font-weight: 200;
+    text-align: start;
+}
+.p-javiera, .p-roberto{
+    @extend %párrafos2;
 }

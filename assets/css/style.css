@@ -33,7 +33,7 @@ body {
   text-align: center;
 }
 
-.p-tomates, .p-limache, .p-javiera, .p-roberto {
+.p-tomates, .p-limache {
   padding-left: 270px;
   padding-right: 225px;
   font-size: 15px;
@@ -48,6 +48,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.p-javiera, .p-roberto {
+  padding-left: 240px;
+  padding-right: 165px;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: start;
 }
 
 /* components */
@@ -76,12 +84,14 @@ body {
 .nosotros {
   background-color: var(--snow);
   color: var(--granite-gray);
-  padding-bottom: 30px;
+  padding-bottom: 70px;
+  text-align: center;
 }
 
 .nosotros img {
-  padding: 80px;
-  padding-bottom: 20px;
+  width: 400px;
+  margin-top: 80px;
+  margin-bottom: 30px;
 }
 
 .tomates {
