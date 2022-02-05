@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* abstracts */
 :root {
   --white: #fff;
@@ -12,15 +13,32 @@
 }
 
 /* base */
-h1 {
+body {
   font-family: 'Raleway', sans-serif;
+}
+
+.título {
   font-weight: 200;
   font-size: 60px;
 }
 
-p {
+.p-hero {
   font-weight: 700;
   font-size: 50px;
+}
+
+.título-tomates {
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.p-tomates {
+  padding-left: 260px;
+  padding-right: 260px;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: start;
 }
 
 /* components */
@@ -28,11 +46,29 @@ p {
 .hero {
   background-color: var(--jelly-bean);
   height: 500px;
-  color: var(--snow);
+  color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
   line-height: 25px;
 }
 
+.tomates {
+  background-color: var(--taupe-gray);
+  color: var(--white);
+  padding-bottom: 30px;
+}
+
+.tomates img {
+  padding: 80px;
+  padding-bottom: 20px;
+}
+
+/* 
+display: flex;
+justify-content: center;
+align-items: center;
+line-height : 25px;
+
+ */
 /*vendors */

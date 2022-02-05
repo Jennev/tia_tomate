@@ -1,10 +1,27 @@
-h1 {
+body{
     font-family: 'Raleway', sans-serif;
+}
+.título {
     font-weight: 200;
     font-size: 60px;   
 }
-p {
+.p-hero {
     font-weight: 700;
     font-size: 50px;    
-    
+}
+
+.título-tomates {
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.p-tomates{
+    padding-left: 260px;
+    padding-right: 260px;
+    font-size: 15px;
+    font-weight: 200;
+    text-align: start;
+   
+
 }
